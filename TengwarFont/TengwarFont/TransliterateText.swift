@@ -19,6 +19,7 @@ class TransliterateText: EFIconFontProtocol {
     var unicode: String { get }
     
     func transliterateThis(string: String) -> NSAttributedString {
+        var str = NSAttributedString(string: string)
         
     }
 }
