@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F239E6812B2FE43E5BE04D71A6E54AA /* EFIconFontCaseIterableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763C89A494328DCE1B2A2668152B141 /* EFIconFontCaseIterableProtocol.swift */; };
+		2897207920D51E63CBBDE64A63F4627E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5B0AB467C94720DA81B8CB3DCEBB97C2 /* EFIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845F299E0C652149E4E8986FD2DB62A5 /* EFIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE4979F631B3532FFE5990E5CDA5C7C /* EFIconFontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00B0F6D6846FB7DD1350BE52779009 /* EFIconFontProtocol.swift */; };
+		60DFCD5D894A575B867E4BD1A5553224 /* Pods-TengwarFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC573340A5C2162E1193DBF34E69E0D6 /* Pods-TengwarFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805DC3410730639C81924C3B687C6E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A032A1F96A08AA4629FC990D3CA4FAA3 /* EFIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE127297A4C75B4DC0D5EA58860CE2D /* EFIconFont.swift */; };
+		C6B399AC3B9732A1D6F5F4302610C9CE /* Pods-TengwarFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA150CC9C7DFC24771A530345F06E47A /* Pods-TengwarFont-dummy.m */; };
+		F279ACD79EF9A9F671ECFA2E4BAED688 /* EFIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B298B566AB8E2D05326F114F8DF6C3 /* EFIconFont-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB63BF3CDC91D2C52A95DB0B89C03A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025428E16539DDA945E1822F3647434A;
+			remoteInfo = EFIconFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF1C829DD74BCBC5E847296CF8F2B59 /* Pods-TengwarFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TengwarFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		212EF505D8222DFCD3B0A45E5C98FD9A /* Pods-TengwarFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TengwarFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CC63FEEC5E02894F26BD0DE4736E0FF /* EFIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFIconFont.modulemap; sourceTree = "<group>"; };
+		308E85658F420858A592B1C8DEBCFC83 /* Pods-TengwarFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TengwarFont.debug.xcconfig"; sourceTree = "<group>"; };
+		31B298B566AB8E2D05326F114F8DF6C3 /* EFIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFIconFont-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3763C89A494328DCE1B2A2668152B141 /* EFIconFontCaseIterableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontCaseIterableProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontCaseIterableProtocol.swift; sourceTree = "<group>"; };
+		4A2CA8BC928FDC0CA483305921142C68 /* Pods-TengwarFont-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TengwarFont-frameworks.sh"; sourceTree = "<group>"; };
+		718E2848BAFF9CA8E144186517760A2B /* Pods-TengwarFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TengwarFont-Info.plist"; sourceTree = "<group>"; };
+		845F299E0C652149E4E8986FD2DB62A5 /* EFIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-umbrella.h"; sourceTree = "<group>"; };
+		86515353D23B8DF97FAED42D717CC5C9 /* EFIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFIconFont-Info.plist"; sourceTree = "<group>"; };
+		95873A1965828D956243F4994EF9825B /* EFIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFIconFont.framework; path = EFIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C2AACD63A9DC9DD2A9EAD68361C2AF /* EFIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFIconFont.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC573340A5C2162E1193DBF34E69E0D6 /* Pods-TengwarFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TengwarFont-umbrella.h"; sourceTree = "<group>"; };
+		BB00B0F6D6846FB7DD1350BE52779009 /* EFIconFontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontProtocol.swift; sourceTree = "<group>"; };
+		D0597B2C4A0FD7765449BBF00B0C3BBF /* Pods-TengwarFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TengwarFont.release.xcconfig"; sourceTree = "<group>"; };
+		E6EAB83DC4D1EE402B15416A9F047DA5 /* Pods-TengwarFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TengwarFont.modulemap"; sourceTree = "<group>"; };
+		EB1BD5E2A22C7D16EE81CA308FE15CE7 /* EFIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-prefix.pch"; sourceTree = "<group>"; };
+		FA150CC9C7DFC24771A530345F06E47A /* Pods-TengwarFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TengwarFont-dummy.m"; sourceTree = "<group>"; };
+		FC723918399049FD7ED269B847FBDA2B /* Pods_TengwarFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TengwarFont.framework; path = "Pods-TengwarFont.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE127297A4C75B4DC0D5EA58860CE2D /* EFIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFont.swift; path = EFIconFont/Classes/Core/EFIconFont.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1966E14334F689679641AD4EDD535379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2897207920D51E63CBBDE64A63F4627E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D0BDF71A3AFFE3C2A9DA906608B635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DC3410730639C81924C3B687C6E5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037BD79595EED7E9F82D7AA64293DB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95873A1965828D956243F4994EF9825B /* EFIconFont.framework */,
+				FC723918399049FD7ED269B847FBDA2B /* Pods_TengwarFont.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319D58681D559387E66946A933CAA859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CC63FEEC5E02894F26BD0DE4736E0FF /* EFIconFont.modulemap */,
+				96C2AACD63A9DC9DD2A9EAD68361C2AF /* EFIconFont.xcconfig */,
+				31B298B566AB8E2D05326F114F8DF6C3 /* EFIconFont-dummy.m */,
+				86515353D23B8DF97FAED42D717CC5C9 /* EFIconFont-Info.plist */,
+				EB1BD5E2A22C7D16EE81CA308FE15CE7 /* EFIconFont-prefix.pch */,
+				845F299E0C652149E4E8986FD2DB62A5 /* EFIconFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EFIconFont";
+			sourceTree = "<group>";
+		};
+		3F4A36211FDB5507CBC4CC4BF17ECC90 /* Pods-TengwarFont */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAB83DC4D1EE402B15416A9F047DA5 /* Pods-TengwarFont.modulemap */,
+				212EF505D8222DFCD3B0A45E5C98FD9A /* Pods-TengwarFont-acknowledgements.markdown */,
+				0DF1C829DD74BCBC5E847296CF8F2B59 /* Pods-TengwarFont-acknowledgements.plist */,
+				FA150CC9C7DFC24771A530345F06E47A /* Pods-TengwarFont-dummy.m */,
+				4A2CA8BC928FDC0CA483305921142C68 /* Pods-TengwarFont-frameworks.sh */,
+				718E2848BAFF9CA8E144186517760A2B /* Pods-TengwarFont-Info.plist */,
+				AC573340A5C2162E1193DBF34E69E0D6 /* Pods-TengwarFont-umbrella.h */,
+				308E85658F420858A592B1C8DEBCFC83 /* Pods-TengwarFont.debug.xcconfig */,
+				D0597B2C4A0FD7765449BBF00B0C3BBF /* Pods-TengwarFont.release.xcconfig */,
+			);
+			name = "Pods-TengwarFont";
+			path = "Target Support Files/Pods-TengwarFont";
+			sourceTree = "<group>";
+		};
+		4C7CB29CC7819CA7798E6EA1A31D4D19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FDE127297A4C75B4DC0D5EA58860CE2D /* EFIconFont.swift */,
+				3763C89A494328DCE1B2A2668152B141 /* EFIconFontCaseIterableProtocol.swift */,
+				BB00B0F6D6846FB7DD1350BE52779009 /* EFIconFontProtocol.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		914270E0638D2D8D8A357AD1F2613999 /* EFIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				4C7CB29CC7819CA7798E6EA1A31D4D19 /* Core */,
+				319D58681D559387E66946A933CAA859 /* Support Files */,
+			);
+			name = EFIconFont;
+			path = EFIconFont;
+			sourceTree = "<group>";
+		};
+		AA62151B51D664B12AE8AFD5B826ABEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914270E0638D2D8D8A357AD1F2613999 /* EFIconFont */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AA62151B51D664B12AE8AFD5B826ABEC /* Pods */,
+				037BD79595EED7E9F82D7AA64293DB5A /* Products */,
+				EB9AD01FEEC42E88DF01FABDBB6BDF77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB9AD01FEEC42E88DF01FABDBB6BDF77 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A36211FDB5507CBC4CC4BF17ECC90 /* Pods-TengwarFont */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26AE281A0E36C90AA9492E297E2A4229 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0AB467C94720DA81B8CB3DCEBB97C2 /* EFIconFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD95398CA5AFB4FDD45950E99B46078 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DFCD5D894A575B867E4BD1A5553224 /* Pods-TengwarFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		025428E16539DDA945E1822F3647434A /* EFIconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A897F9028C3935B2CB2F1A770054CCC /* Build configuration list for PBXNativeTarget "EFIconFont" */;
+			buildPhases = (
+				26AE281A0E36C90AA9492E297E2A4229 /* Headers */,
+				993D05816EAA088667CEBD09371F77B4 /* Sources */,
+				E8D0BDF71A3AFFE3C2A9DA906608B635 /* Frameworks */,
+				E343B5120C4389A0677CABCBBB53FA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFIconFont;
+			productName = EFIconFont;
+			productReference = 95873A1965828D956243F4994EF9825B /* EFIconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCAC911337B3F0FCF162397567FC7A29 /* Pods-TengwarFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70496E98F634D529AB6FFF12E236623 /* Build configuration list for PBXNativeTarget "Pods-TengwarFont" */;
+			buildPhases = (
+				BBD95398CA5AFB4FDD45950E99B46078 /* Headers */,
+				212F2430E8E532A04C7868011523CF01 /* Sources */,
+				1966E14334F689679641AD4EDD535379 /* Frameworks */,
+				DC8B30DF91851DE24B345CE00312C596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7A6FD501D4912F782C5652670E474E /* PBXTargetDependency */,
+			);
+			name = "Pods-TengwarFont";
+			productName = "Pods-TengwarFont";
+			productReference = FC723918399049FD7ED269B847FBDA2B /* Pods_TengwarFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 037BD79595EED7E9F82D7AA64293DB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025428E16539DDA945E1822F3647434A /* EFIconFont */,
+				FCAC911337B3F0FCF162397567FC7A29 /* Pods-TengwarFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8B30DF91851DE24B345CE00312C596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E343B5120C4389A0677CABCBBB53FA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212F2430E8E532A04C7868011523CF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B399AC3B9732A1D6F5F4302610C9CE /* Pods-TengwarFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993D05816EAA088667CEBD09371F77B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F279ACD79EF9A9F671ECFA2E4BAED688 /* EFIconFont-dummy.m in Sources */,
+				A032A1F96A08AA4629FC990D3CA4FAA3 /* EFIconFont.swift in Sources */,
+				1F239E6812B2FE43E5BE04D71A6E54AA /* EFIconFontCaseIterableProtocol.swift in Sources */,
+				5DE4979F631B3532FFE5990E5CDA5C7C /* EFIconFontProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C7A6FD501D4912F782C5652670E474E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFIconFont;
+			target = 025428E16539DDA945E1822F3647434A /* EFIconFont */;
+			targetProxy = CB63BF3CDC91D2C52A95DB0B89C03A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DF6BF51BEB6E3450C6B3255322FA649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C2AACD63A9DC9DD2A9EAD68361C2AF /* EFIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
+				PRODUCT_MODULE_NAME = EFIconFont;
+				PRODUCT_NAME = EFIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87941D193034E04511C484650DD15DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308E85658F420858A592B1C8DEBCFC83 /* Pods-TengwarFont.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TengwarFont/Pods-TengwarFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TengwarFont/Pods-TengwarFont.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FE5A6E3E48C6EAA3F0373503C9EA863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0597B2C4A0FD7765449BBF00B0C3BBF /* Pods-TengwarFont.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TengwarFont/Pods-TengwarFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TengwarFont/Pods-TengwarFont.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6204D4056335A97624BD8E83541D27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C2AACD63A9DC9DD2A9EAD68361C2AF /* EFIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
+				PRODUCT_MODULE_NAME = EFIconFont;
+				PRODUCT_NAME = EFIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A897F9028C3935B2CB2F1A770054CCC /* Build configuration list for PBXNativeTarget "EFIconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6204D4056335A97624BD8E83541D27D /* Debug */,
+				5DF6BF51BEB6E3450C6B3255322FA649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70496E98F634D529AB6FFF12E236623 /* Build configuration list for PBXNativeTarget "Pods-TengwarFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87941D193034E04511C484650DD15DF5 /* Debug */,
+				9FE5A6E3E48C6EAA3F0373503C9EA863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

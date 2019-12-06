@@ -1,0 +1,18 @@
+PODS:
+  - EFIconFont (0.8.0):
+    - EFIconFont/Core (= 0.8.0)
+  - EFIconFont/Core (0.8.0)
+
+DEPENDENCIES:
+  - EFIconFont
+
+SPEC REPOS:
+  trunk:
+    - EFIconFont
+
+SPEC CHECKSUMS:
+  EFIconFont: dce94c0ce96ba8445898de3d90376acb985d9ead
+
+PODFILE CHECKSUM: bcb019e924a92397db49e0a2615fd79d6aa489a3
+
+COCOAPODS: 1.8.4
