@@ -6,6 +6,10 @@
 //  Copyright © 2019 Amelia. All rights reserved.
 //
 
+//https://www.fontspace.com/m%C3%A5ns-bj%C3%B6rkman/tengwar-eldamar
+//https://blogfonts.com/tengwar-eldamar.font
+//https://www.myfonts.com/fonts/zephyris/tengwar-transliteral/
+
 import UIKit
 import EFIconFont
 
