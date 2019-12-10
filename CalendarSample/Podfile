@@ -6,6 +6,6 @@ target 'CalendarSample' do
   use_frameworks!
 
   # Pods for CalendarSample
-  pod 'CalendarView'
+  pod 'KDCalendar', '~> 1.8.2'
 
 end

@@ -1,20 +1,18 @@
 PODS:
-  - CalendarView (1.1.2):
-    - SwiftMoment (~> 0.1)
-  - SwiftMoment (0.7)
+  - KDCalendar (1.8.2):
+    - KDCalendar/EventManager (= 1.8.2)
+  - KDCalendar/EventManager (1.8.2)
 
 DEPENDENCIES:
-  - CalendarView
+  - KDCalendar (~> 1.8.2)
 
 SPEC REPOS:
   trunk:
-    - CalendarView
-    - SwiftMoment
+    - KDCalendar
 
 SPEC CHECKSUMS:
-  CalendarView: 35d51b70586213604edec22a585d105273f6e191
-  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+  KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
 
-PODFILE CHECKSUM: 5ec1e3fa5287786929ee795c9361ebd5eb43e5e2
+PODFILE CHECKSUM: 9b9524083711904990b53a9c3c989419158b8b83
 
 COCOAPODS: 1.8.4
