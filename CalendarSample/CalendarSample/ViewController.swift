@@ -119,6 +119,8 @@ extension ViewController: CalendarViewDataSource {
 
 extension ViewController: CalendarViewDelegate {
     func calendar(_ calendar: CalendarView, didScrollToMonth date: Date) {
+        //self.calendarView.selectDate(date)
+        //calendar.setDisplayDate(date)
         let _: String = "Yay you!"
     }
     
@@ -127,7 +129,9 @@ extension ViewController: CalendarViewDelegate {
     }
     
     func calendar(_ calendar: CalendarView, didDeselectDate date: Date) {
-        let _: String = "Selected this date!"
+        //self.calendarView.selectDate(date)
+        //calendar.setDisplayDate(date)
+        let _: String = "You selected a date."
     }
     
     func calendar(_ calendar: CalendarView, didSelectDate date : Date, withEvents events: [CalendarEvent]) {
